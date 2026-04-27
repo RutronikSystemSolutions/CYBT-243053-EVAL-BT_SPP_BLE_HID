@@ -17,6 +17,10 @@ Peripheral UART can be used for multiple purpose in application mode (show debug
 
 <img src="pictures/use_case.png" style="zoom:50%;" />
 
+## Supported toolchains (make variable 'TOOLCHAIN')
+
+- GNU Arm&reg; Embedded Compiler v14.2.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
+
 ## Program the CYBT-243053-EVAL
 
 Connect the kit to your computer over USB and make sure that no program is using the HCI UART COM port.
